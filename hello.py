@@ -34,5 +34,5 @@ def update():
 
     return  render_template('home.html', update_value=update_value)
 
-if __name__ == '__main__':
-    app.run(port=16660, debug=True)
+if __name__ == "__main__": 
+    app.run(host ='0.0.0.0', port = 8001, debug = True)
